@@ -37,6 +37,7 @@ class Course extends Model
 
     public function students(){
         //* Data dari student ada didalam course_student 
+        
         return $this->belongsToMany(User::class,'course_students');
     }
 }

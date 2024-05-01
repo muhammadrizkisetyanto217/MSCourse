@@ -17,7 +17,7 @@
     <div style="background-image:url('{{asset('assets/background/Hero-Banner.png')}}');" id="hero-section" class="max-w-[1200px] mx-auto w-full h-[393px] flex flex-col gap-10 pb-[50px] bg-center bg-no-repeat bg-cover rounded-[32px] overflow-hidden absolute transform -translate-x-1/2 left-1/2">
         <nav class="flex justify-between items-center pt-6 px-[50px]">
             <a href="index.html">
-                <img src="{{asset('assets/logo/logo.svg')}}" alt="logo">
+                <img src="{{asset('assets/logo/MSFix(1).svg')}}" alt="logo">
             </a>
             <ul class="flex items-center gap-[30px] text-white">
                 <li>
@@ -339,7 +339,7 @@
         <div class="flex justify-between">
             <a href="">
                 <div>
-                    <img src="{{asset('assets/logo/logo-black.svg')}}" alt="logo">
+                    <img src="{{asset('assets/logo/MSFix(1).svg')}}" alt="logo">
                 </div>
             </a>
             <div class="flex flex-col gap-5">
@@ -398,7 +398,7 @@
             </div>
         </div>
         <div class="w-full h-[51px] flex items-end border-t border-[#E7EEF2]">
-            <p class="mx-auto text-sm text-[#6D7786] -tracking-[2%]">All Rights Reserved Alqowy BuildWithAngga 2024</p>
+            <p class="mx-auto text-sm text-[#6D7786] -tracking-[2%]">Madinah Salam</p>
         </div>
     </footer>
 

@@ -18,6 +18,7 @@ class FrontController extends Controller
 
         $courses= Course::with(['category','teacher','students'])->orderByDesc('id')->get();
         return view('front.index', compact('courses'));
+
     }
 
     public function details(Course $course){
@@ -35,6 +36,11 @@ class FrontController extends Controller
 
     public function checkout(){
         return view('front.checkout');
+    }
+
+    public function home()
+    {
+        return view('front.home');
     }
 
     public function checkout_store(StoreSubscribeTransactionRequest $request){

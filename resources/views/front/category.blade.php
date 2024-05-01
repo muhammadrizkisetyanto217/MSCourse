@@ -10,7 +10,7 @@
     <div style="background-image:url('{{asset('assets/background/Hero-Banner.png')}}');" id="hero-section" class="max-w-[1200px] mx-auto w-full flex flex-col gap-10 bg-center bg-no-repeat bg-cover rounded-[32px] overflow-hidden">
         <nav class="flex justify-between items-center py-6 px-[50px]">
             <a href="index.html">
-                <img src="{{asset('assets//logo/logo.svg')}}" alt="logo">
+                <img src="{{asset('assets/logo/MSFix(1).svg')}}" alt="logo">
             </a>
             <ul class="flex items-center gap-[30px] text-white">
                 <li>
@@ -53,7 +53,9 @@
             @endguest
         </nav>
     </div>
-    @forelse($courses as $course)
+
+
+{{--~  --}}
     <section id="Top-Categories" class="max-w-[1200px] mx-auto flex flex-col py-[70px] px-[100px] gap-[30px]">
         <div class="flex flex-col gap-[30px]">
             <div class="gradient-badge w-fit p-[8px_16px] rounded-full border border-[#FED6AD] flex items-center gap-[6px]">
@@ -63,14 +65,12 @@
                 <p class="font-medium text-sm text-[#FF6129]">Teks</p>
             </div>
             <div class="flex flex-col">
-                <h2 class="font-bold text-[40px] leading-[60px]">{{$course->name}}</h2>
+                <h2 class="font-bold text-[40px] leading-[60px]">Kategori</h2>
                 <p class="text-[#6D7786] text-lg -tracking-[2%]">Catching up the on demand skills and high paying career this year</p>
             </div>
-            @empty
-            @endforelse
 
             <div class="grid grid-cols-3 gap-[30px] w-full">
-                @forelse($courses as $course)
+            @forelse($courses as $course)
                 <div class="course-card">
                     <div class="flex flex-col rounded-t-[12px] rounded-b-[24px] gap-[32px] bg-white w-full pb-[10px] overflow-hidden ring-1 ring-[#DADEE4] transition-all duration-300 hover:ring-2 hover:ring-[#FF6129]">
                         <a href="{{route('front.details', $course->slug)}}" class="thumbnail w-full h-[200px] shrink-0 rounded-[10px] overflow-hidden">
@@ -141,7 +141,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -167,7 +167,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -193,7 +193,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -219,7 +219,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -247,7 +247,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -273,7 +273,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                            <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -299,7 +299,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                            <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -325,7 +325,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                            <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -355,7 +355,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                            <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -381,7 +381,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -407,7 +407,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -433,7 +433,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -461,7 +461,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -487,7 +487,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -513,7 +513,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -539,7 +539,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="{{asset('assets//photo/photo4.png')}}" class="w-full h-full object-cover" alt="photo">
+                                <img src="{{asset('assets//background/foto.jpeg')}}" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -633,7 +633,7 @@
         <div class="flex justify-between">
             <a href="">
                 <div>
-                    <img src="{{asset('assets//logo/logo-black.svg')}}" alt="logo">
+                    <img src="{{asset('assets/logo/MSFix(1).svg')}}" alt="logo">
                 </div>
             </a>
             <div class="flex flex-col gap-5">
@@ -692,7 +692,7 @@
             </div>
         </div>
         <div class="w-full h-[51px] flex items-end border-t border-[#E7EEF2]">
-            <p class="mx-auto text-sm text-[#6D7786] -tracking-[2%]">All Rights Reserved Alqowy BuildWithAngga 2024</p>
+            <p class="mx-auto text-sm text-[#6D7786] -tracking-[2%]">Madinah Salam</p>
         </div>
     </footer>
 

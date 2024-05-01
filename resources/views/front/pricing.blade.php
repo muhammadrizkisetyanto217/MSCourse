@@ -17,7 +17,7 @@
     <div id="hero-section" class="max-w-[1200px] mx-auto w-full h-[536px] flex flex-col gap-10 pb-[50px] bg-[url('assets/background/Hero-Banner.png')] bg-center bg-no-repeat bg-cover rounded-[32px] overflow-hidden relative">
         <nav class="flex justify-between items-center pt-6 px-[50px]">
             <a href="index.html">
-                <img src="assets/logo/logo.svg" alt="logo">
+                <img src="assets/logo/MSFix(1).svg" alt="logo">
             </a>
 
             <ul class="flex items-center gap-[30px] text-white">
@@ -176,7 +176,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -202,7 +202,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -228,7 +228,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -254,7 +254,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -282,7 +282,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -308,7 +308,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                            <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -334,7 +334,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                            <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -360,7 +360,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                            <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -390,7 +390,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                     <div class="flex items-center gap-3">
                         <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                            <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                            <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                         </div>
                         <p class="font-semibold">Shayna</p>
                     </div>
@@ -416,7 +416,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -442,7 +442,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -468,7 +468,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -496,7 +496,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -522,7 +522,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -548,7 +548,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -574,7 +574,7 @@
                     <div class="test-card w-[300px] flex flex-col h-full bg-white rounded-xl gap-3 p-5">
                         <div class="flex items-center gap-3">
                             <div class="w-8 h-8 flex shrink-0 rounded-full overflow-hidden">
-                                <img src="assets/photo/photo4.png" class="w-full h-full object-cover" alt="photo">
+                                <img src="assets/background/foto.jpeg" class="w-full h-full object-cover" alt="photo">
                             </div>
                             <p class="font-semibold">Shayna</p>
                         </div>
@@ -668,7 +668,7 @@
         <div class="flex justify-between">
             <a href="">
                 <div>
-                    <img src="assets/logo/logo-black.svg" alt="logo">
+                    <img src="assets/logo/MSFix(1).svg" alt="logo">
                 </div>
             </a>
             <div class="flex flex-col gap-5">
@@ -727,7 +727,7 @@
             </div>
         </div>
         <div class="w-full h-[51px] flex items-end border-t border-[#E7EEF2]">
-            <p class="mx-auto text-sm text-[#6D7786] -tracking-[2%]">All Rights Reserved Alqowy BuildWithAngga 2024</p>
+            <p class="mx-auto text-sm text-[#6D7786] -tracking-[2%]">Madinah Salam</p>
         </div>
     </footer>
 

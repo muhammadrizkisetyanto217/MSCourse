@@ -12,7 +12,7 @@
     <div id="checkout-section" class="max-w-[1200px] mx-auto w-full min-h-[calc(100vh-40px)] flex flex-col gap-[30px] bg-[url('assets/background/Hero-Banner.png')] bg-center bg-no-repeat bg-cover rounded-t-[32px] overflow-hidden relative pb-6">
         <nav class="flex justify-between items-center pt-6 px-[50px]">
             <a href="index.html">
-                <img src="assets/logo/logo.svg" alt="logo">
+                <img src="assets/logo/MSFix(1).svg" class="object-cover h-12 w-12/Users/muhammadrizkisetyanto/Downloads/MSLogo.svg" alt="logo">
             </a>
             <ul class="flex items-center gap-[30px] text-white">
                 <li>
@@ -120,7 +120,7 @@
                             </div>
                             <p class="text-[#475466]">Bank Name</p>
                         </div>
-                        <p class="font-semibold">Angga Capital</p>
+                        <p class="font-semibold">Bank Syariah Indonesia</p>
                         <input type="hidden" name="bankName" value="Angga Capital">
                     </div>
                     <div class="flex items-center justify-between">
@@ -140,7 +140,7 @@
                             </div>
                             <p class="text-[#475466]">Account Name</p>
                         </div>
-                        <p class="font-semibold">Alqowy Education First</p>
+                        <p class="font-semibold">Yayasan Madinah Salam Indonesia</p>
                         <input type="hidden" name="accountName" value="Alqowy Education First">
                     </div>
                     <div class="flex items-center justify-between">

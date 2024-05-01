@@ -20,6 +20,8 @@ Route::get('/category/{category:slug}',[FrontController::class,'category'])->nam
 
 Route::get('/pricing', [FrontController::class,'pricing'])->name('front.pricing');
 
+Route::get('/home', [FrontController::class, 'home'])->name('front.home');
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
